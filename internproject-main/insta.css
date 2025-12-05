@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #000;
+    color: white;
+}
+
+
+.login-container {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.login-box {
+    width: 360px;
+    background: #000;
+    border: 1px solid #262626;
+    padding: 40px;
+    text-align: center;
+}
+
+.logo {
+    font-family: cursive;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    background: #121212;
+    border: 1px solid #333;
+    color: white;
+    margin-bottom: 8px;
+    border-radius: 3px;
+}
+
+.login-box input::placeholder {
+    color: #999;
+}
+
+.login-box input:focus {
+    outline: none;
+    border-color: #555;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 9px;
+    background: #3f51b5;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #4f63c9;
+}
+
+
+.or {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    color: gray;
+}
+
+.or span {
+    flex: 1;
+    height: 1px;
+    background: #333;
+}
+
+.or p {
+    margin: 0 10px;
+    font-size: 13px;
+}
+
+.facebook {
+    margin-bottom: 15px;
+}
+
+.facebook img {
+    width: 16px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
+.facebook a {
+    color: #1877f2;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+.forgot {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.signup-box {
+    width: 360px;
+    border: 1px solid #262626;
+    margin-top: 12px;
+    padding: 15px;
+    text-align: center;
+}
+
+.signup-box a {
+    color: #3f51b5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 12px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.footer-links a {
+    color: #888;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    color: #777;
+}

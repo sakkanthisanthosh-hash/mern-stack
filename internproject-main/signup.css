@@ -1,0 +1,43 @@
+body.page {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://t4.ftcdn.net/jpg/04/61/47/03/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg"); /* Change image name */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    color:white;
+    width: 280px;
+    background: rgb(0, 69, 111);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    width: 95%;
+    padding: 8px;
+    margin: 8px 0;
+}
+
+button {
+    padding: 8px 15px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 38, 0);
+}

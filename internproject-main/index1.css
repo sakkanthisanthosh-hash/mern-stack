@@ -1,0 +1,23 @@
+.head-container {
+    padding: 20px;
+}
+
+.head-items {
+    font-family: 'Arial', sans-serif;
+    color: darkblue;
+}
+
+.logo-image {
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-links{
+    display:flex;
+    gap: 20px;
+}
